@@ -1,5 +1,5 @@
 
-import { Route, Routes } from "react-router";
+import { Route, Routes } from "react-router-dom";
 import Addina from "./component/Addina";
 import Home from "./component/Home";
 import Pages from "./component/Pages";
