@@ -1,8 +1,13 @@
-
-import { NavLink } from "react-router";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
 import "./style.css"
+import { useState } from "react";
 
 function Navbar(){
+    const [showMenu, setShowMenu]= useState (false);
+    const handleButton=()=>{
+        setShowMenu(!showMenu);
+    }
     return(
         <>
 
@@ -48,6 +53,27 @@ function Navbar(){
                                     </li>
                                 </ul>
                             </div>
+
+                            <div className=" lg:hidden">
+                        <button onClick={handleButton} className="cursor-pointer text-2xl">
+                                <GiHamburgerMenu />
+                        </button>
+                  </div>
+
+                  {showMenu && (
+                        <div className="absolute top-16 left-0 w-full bg-white shadow-lg lg:hidden z-50">
+                          <ul className='flex flex-col items-center gap-4 py-4 text-black'>
+                            <li><NavLink to="/" onClick={() => setShowMenu(false)}>Home</NavLink></li>
+                            <li><NavLink to="/feature" onClick={() => setShowMenu(false)}>About</NavLink></li>
+                            <li><NavLink to="/community" onClick={() => setShowMenu(false)}>Shop</NavLink></li>
+                            <li><NavLink to="/blog" onClick={() => setShowMenu(false)}>Pages</NavLink></li>
+                            <li><NavLink to="/pricing" onClick={() => setShowMenu(false)}>Blog</NavLink></li>
+                            <li><NavLink to="/pricing" onClick={() => setShowMenu(false)}>Contact</NavLink></li>
+                            
+                           </ul>
+                        </div>
+                    )}
+
                     </nav>
                         
                 <nav className=" flex flex-wrap items-center justify-between bg-white text-shadow-black px-12 py-3 w-full ">
@@ -57,7 +83,7 @@ function Navbar(){
                         <img src="/images/logo.svg" alt="" />
                       </h3>
                     </a>
-                    <ul className="flex flex-wrap items-center justify-center gap-10 font-bold text-black  p-3">
+                    <ul className="hidden lg:flex flex-wrap items-center justify-center gap-10 font-bold text-black  p-3">
                       <li className='hover:text-green-300 cursor-pointer'>
                         <NavLink to="/">Home </NavLink>
                       </li>
@@ -80,13 +106,36 @@ function Navbar(){
                       
                     </ul>
                   </div>
-                  <div className="flex flex-wrap items-center justify-center gap-6 font-bold text-black">
+                  <div className="hidden lg:flex flex-wrap items-center justify-center gap-6 font-bold text-black">
                     <img src="/images/pic42.jpg" alt="" className='rounded-2xl'/>
                     <img src="/images/pic43.jpg" alt="" className='rounded-2xl'/>
                     <img src="/images/pic39.jpg" alt="" className='rounded-2xl'/>
                   </div>
+
+                  <div className=" lg:hidden">
+                        <button onClick={handleButton} className="cursor-pointer text-2xl">
+                                <GiHamburgerMenu />
+                        </button>
+                  </div>
+
+                  {showMenu && (
+                        <div className="absolute top-16 left-0 w-full bg-white shadow-lg lg:hidden z-50">
+                          <ul className='flex flex-col items-center gap-4 py-4 text-black'>
+                            <li><NavLink to="/" onClick={() => setShowMenu(false)}>Home</NavLink></li>
+                            <li><NavLink to="/feature" onClick={() => setShowMenu(false)}>About</NavLink></li>
+                            <li><NavLink to="/community" onClick={() => setShowMenu(false)}>Shop</NavLink></li>
+                            <li><NavLink to="/blog" onClick={() => setShowMenu(false)}>Pages</NavLink></li>
+                            <li><NavLink to="/pricing" onClick={() => setShowMenu(false)}>Blog</NavLink></li>
+                            <li><NavLink to="/pricing" onClick={() => setShowMenu(false)}>Contact</NavLink></li>
+                            
+                           </ul>
+                        </div>
+                    )}
+
                 </nav>
               </div>
+
+              
 
         </>
     )
