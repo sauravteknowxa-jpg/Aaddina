@@ -12,7 +12,7 @@ function Navbar(){
                                 <a href="">
                                 <h2 className="flex flex-wrap items-center justify-center gap-2 ">
                                     <img src="/images/pic40.jpg" alt="" className='rounded-xl' />
-                                    <span className='text-white text-center md:text-base'>380961381876</span>
+                                    <span className='text-white text-center md:text-base'>+380961381876</span>
                                 </h2>
                                 </a>
                             </div>

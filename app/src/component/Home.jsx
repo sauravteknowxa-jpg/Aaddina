@@ -9,7 +9,7 @@ function Home(){
                         <h2 className="bg-gray-200 sm:text-base md:text-lg lg:text-xl text-left font-semibold text-neutral-500 px-4 py-1">
                           100% ORGANIC PRODUCT
                         </h2>
-                        <h1 className="flex flex-col gap-2 text-left text-lg sm:text-2xl md:text-4xl lg:text-8xl font-semibold ">
+                        <h1 className="flex flex-col gap-2 text-left text-lg sm:text-2xl md:text-4xl lg:text-6xl font-bold ">
                             Buy Delicious produce Enjoy Free Shipping
                          </h1>
                         <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  p-3 bg-green-500 text-white">
@@ -70,8 +70,8 @@ function Home(){
               {/* section2 */}
               <div className='w-full mt-4 mb-8'>
                 <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                  <button className=" flex flex-wrap items-center justify-center gap-3 py-2  px-4 bg-green-100 w-40 ">
-                            <span className='text-green-400 text-lg md:text-2xl'>This Month</span>
+                  <button className=" flex flex-wrap items-center justify-center gap-3 py-2  px-2 bg-green-100 w-50 ">
+                            <span className='text-green-400 text-lg md:text-xl'>THIS MONTH</span>
                   </button>
                    <div className='flex flex-wrap items-center justify-between gap-6 w-full '>
                         <span className='text-base sm:text-lg md:text-2xl lg:text-5xl font-semibold'>Trendy Products</span>
@@ -98,7 +98,7 @@ function Home(){
                 <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 px-8 w-full'>
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product1 (1).png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -109,7 +109,7 @@ function Home(){
                       </div>
 
                        <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product2.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -120,7 +120,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product3 (1).png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -131,7 +131,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product4.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -142,7 +142,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product5.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -153,7 +153,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product6.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -164,7 +164,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product7.png" alt="" />
 
                             </div>
@@ -176,7 +176,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product8.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -196,7 +196,7 @@ function Home(){
                 <div className='flex flex-wrap items-center justify-center gap-4 p-2 md:px-4 w-full'>
                     <div className='w-full md:w-[40%] bg-cover  ' style={{backgroundImage:"url(/images/pic48.jpg)"}}>
                           <div className='flex flex-col items-start justify-start gap-6 px-4 py-20'>
-                                  <span className='text-green-400 text-2xl'>30% Off</span>
+                                  <span className='text-green-600 text-2xl'>30% Off</span>
                                   <h2 className='text-black sm:text-2xl md:text-4xl lg:text-6xl'>Fresh Vegetables</h2>
                                   <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  p-3 bg-green-500 text-white">
                                     <span>Buy Now</span>
@@ -224,7 +224,7 @@ function Home(){
                 <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
                   <div className='w-full flex flex-col px-12  ' >
                       <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-40 ">
-                            <span className='text-green-400 text-lg md:text-2xl'>This Week</span>
+                            <span className='text-green-400 text-lg md:text-2xl'>THIS WEEK</span>
                       </button>
                     <span className='text-base sm:text-lg md:text-2xl lg:text-5xl font-semibold'>Best Sellers</span>
 
@@ -314,7 +314,7 @@ function Home(){
                     <div className='w-full bg-cover' style={{backgroundImage:"url(/images/pic48.jpg)"}}>
                           <div className='flex flex-col items-center justify-center gap-10 px-8 py-12'>
                                   <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-40 ">
-                                        <span className='text-green-400 text-lg md:text-2xl'>This Week</span>
+                                        <span className='text-green-400 text-lg md:text-2xl'>THIS WEEK</span>
                                   </button>
                                   <span className='text-base sm:text-lg md:text-2xl lg:text-6xl font-bold'>Weekly Best Deals</span>
                                   <div className='grid sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-4'>
@@ -347,14 +347,14 @@ function Home(){
            <div className='w-full m-10'>
                 <div className=" flex flex-col  bg-white gap-8  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
                     <div className='w-full flex flex-col px-8 gap-4  ' >
-                        <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-40 ">
-                              <span className='text-green-400 text-lg md:text-2xl'>Top Sale</span>
+                        <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-50 ">
+                              <span className='text-green-400 text-lg md:text-2xl'>TOP SALE</span>
                         </button>
                       <span className='text-base sm:text-lg md:text-2xl lg:text-5xl font-semibold'>Featured Product</span>
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 px-8 w-full'>
                           <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product1 (1).png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -365,7 +365,7 @@ function Home(){
                       </div>
 
                        <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product2.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -376,7 +376,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product3 (1).png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -388,7 +388,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-3 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
                                       <img src="/images/product4.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -405,12 +405,12 @@ function Home(){
             <div className='w-full bg-gray-300'>
                   <div className=' flex flex-col items-center justify-center  w-full'>
                     <div className="mt-16 flex flex-col  gap-3  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                        <button className=" flex flex-wrap items-center justify-center gap-3 py-2  px-4 bg-green-100 w-40 ">
-                            <span className='text-green-400 text-lg md:text-2xl'>Testimonial </span>
+                        <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-6 bg-green-100 w-50 ">
+                            <span className='text-green-400 text-lg md:text-2xl '>TESTIMONIALS </span>
                         </button>
                         <div className='flex flex-wrap items-center justify-between gap-6 w-full '>
                               <span className='text-base sm:text-lg md:text-2xl lg:text-5xl font-semibold'>Client Feedback</span>
-                              <ul className='flex flex-wrap items-start justify-start gap-6 pl-5  '>
+                              <ul className='flex flex-wrap items-start justify-start gap-3 pl-5  '>
                                   <img src="/images/pic51.jpg" alt="" className='rounded-3xl' />
                                   <img src="/images/pic52.jpg" alt="" className='rounded-3xl' />                        
                               </ul>
@@ -466,13 +466,13 @@ function Home(){
                                   <h2 className='sm:text-xl md:text-2xl lg:text-3xl font-bold'>Get our FREE app Now!</h2>
                                   <h2 className='text-gray-400'>Get weekly deals, valuable health information and more.</h2>
                                   <div className='flex flex-wrap items-center justify-center gap-3 p-2 '>
-                                          <button className=" flex flex-wrap items-center justify-center gap-3  border-2 border-black w-30 ">
-                                                  <img src="/images/pic53.jpg" alt="" className='w-full' />
+                                          <div className=" flex flex-wrap items-center justify-center gap-3  border-2 bg-black w-30 h-13 p-2 ">
+                                                  <img src="/images/play-store.png" alt="" className='w-full' />
 
-                                          </button>
-                                          <button className=" flex flex-wrap items-center justify-center gap-3 border-2 border-black w-30 ">
-                                                  <img src="/images/pic55.jpg" alt="" className='w-full' />
-                                          </button>
+                                          </div>
+                                          <div className=" flex flex-wrap items-center justify-center gap-3 border-2 bg-black w-30 h-13 p-2 ">
+                                                  <img src="/images/apple-store.png" alt="" className='w-full' />
+                                          </div>
 
                                   </div>
                              </div>
