@@ -4,12 +4,12 @@ function Home(){
     return(
         <>
             <div className="w-full  ">
-                  <div className=" flex flex-col md:flex-row gap-4 bg-slate-50  sm:p-4 md:p-12 lg:p-20  w-full">
-                     <div className="flex flex-col items-center md:items-start text-center md:text-left justify-center gap-8 md:w-1/2 w-full ">
+                  <div className=" flex flex-col md:flex-row gap-4 bg-slate-50  sm:p-4 md:p-12 lg:p-30  w-full">
+                     <div className="flex flex-col items-center md:items-start text-center md:text-left justify-center gap-12  md:w-1/2 w-full ">
                         <h2 className="bg-gray-200 sm:text-base md:text-lg lg:text-xl text-left font-semibold text-neutral-500 px-4 py-1">
                           100% ORGANIC PRODUCT
                         </h2>
-                        <h1 className="flex flex-col gap-2 text-left text-lg sm:text-2xl md:text-4xl lg:text-6xl font-bold ">
+                        <h1 className="flex flex-col gap-2 text-left text-lg sm:text-2xl md:text-4xl lg:text-6xl font-bold md:pr-50 ">
                             Buy Delicious produce Enjoy Free Shipping
                          </h1>
                         <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  p-3 bg-green-500 text-white">
@@ -96,9 +96,9 @@ function Home(){
 
               <div className='w-full mt-4 mb-8'>
                 <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 px-8 w-full'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 px-12 w-full'>
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product1 (1).png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -109,7 +109,7 @@ function Home(){
                       </div>
 
                        <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product2.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -120,7 +120,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product3 (1).png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -131,7 +131,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product4.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -142,7 +142,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product5.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -153,7 +153,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product6.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -164,7 +164,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product7.png" alt="" />
 
                             </div>
@@ -176,7 +176,7 @@ function Home(){
                       </div>
 
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product8.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
@@ -194,7 +194,7 @@ function Home(){
             <div className='w-full mt-8 mb-4'>
               <div className=" flex flex-col md:flex-row bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
                 <div className='flex flex-wrap items-center justify-center gap-4 p-2 md:px-4 w-full'>
-                    <div className='w-full md:w-[40%] bg-cover  ' style={{backgroundImage:"url(/images/pic48.jpg)"}}>
+                    <div className='w-full md:w-[40%] bg-cover  ' style={{backgroundImage:"url(/images/off-01.png)"}}>
                           <div className='flex flex-col items-start justify-start gap-6 px-4 py-20'>
                                   <span className='text-green-600 text-2xl'>30% Off</span>
                                   <h2 className='text-black sm:text-2xl md:text-4xl lg:text-6xl'>Fresh Vegetables</h2>
@@ -206,7 +206,7 @@ function Home(){
                           </div>
                           
                     </div>
-                    <div className='w-full md:w-[54%] bg-cover' style={{backgroundImage:"url(/images/pic49.jpg)"}}>
+                    <div className='w-full md:w-[54%] bg-cover' style={{backgroundImage:"url(/images/off-02.png)"}}>
                             <div className='flex flex-col items-start justify-start gap-6 px-4 py-12 w-[60%]'>
                                   <span className='text-green-300 text-2xl'>Limited offer</span>
                                   <span className='text-white sm:text-2xl md:text-4xl lg:text-6xl'>Don't Miss  25% Off On All Fruits</span>
@@ -310,9 +310,9 @@ function Home(){
           </div>
 
           <div className='w-full m-4'>
-               <div className=" flex flex-col  bg-white gap-4   w-full">
-                    <div className='w-full bg-cover' style={{backgroundImage:"url(/images/pic48.jpg)"}}>
-                          <div className='flex flex-col items-center justify-center gap-10 px-8 py-12'>
+               <div className=" flex flex-col  bg-white   w-full">
+                    <div className='w-full bg-cover' style={{backgroundImage:"url(/images/off-01.png)"}}>
+                          <div className='flex flex-col items-center justify-center gap-10 px-8 md:py-20'>
                                   <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-40 ">
                                         <span className='text-green-400 text-lg md:text-2xl'>THIS WEEK</span>
                                   </button>

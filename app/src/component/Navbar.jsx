@@ -22,18 +22,28 @@ function Navbar(){
                             <div className="flex flex-col md:flex-row justify-center items-center p-2">
                                 <ul className='flex flex-wrap items-center justify-center gap-4'>
                                     <li>
-                                        <select name="" id="" className='text-white'>
-                                            <option value="">English</option>
+                                        <select name="" id="" className='text-white cursor-pointer hover:text-green-300'>
+                                               <option value="" className="text-black ">English</option>
+                                               <option value="" className="text-black ">Spanish</option>
+                                               <option value="" className="text-black ">Russian</option>
+                                               <option value="" className="text-black ">Portuguese</option>
                                         </select>
                                     </li>
                                     <li>
-                                        <select name="" id="" className='text-white'>
-                                            <option value="">USD</option>
+                                        <select name="" id="" className='text-white cursor-pointer hover:text-green-300'>
+                                               <option value="" className="text-black ">USD</option>
+                                               <option value="" className="text-black ">EUR</option>
+                                               <option value="" className="text-black ">CHF</option>
+                                               <option value="" className="text-black ">GBP</option>
                                         </select>
                                     </li>
                                     <li>
-                                        <select name="" id="" className='text-white'>
-                                            <option value="">Setting</option>
+                                        <select name="" id="" className='text-white cursor-pointer hover:text-green-300'>
+                                              <option value="" className="text-black ">Setting</option>
+                                               <option value="" className="text-black ">My Profile</option>
+                                               <option value="" className="text-black ">Wishlist</option>
+                                               <option value="" className="text-black ">Cart</option>
+                                               <option value="" className="text-black ">Logout</option>
                                         </select>
                                     </li>
                                 </ul>
