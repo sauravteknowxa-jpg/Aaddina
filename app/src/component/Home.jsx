@@ -69,7 +69,7 @@ function Home(){
 
               {/* section2 */}
               <div className='w-full mt-4 mb-8'>
-                <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
+                <div className=" flex flex-col  bg-white gap-4 p-2 sm:px-4 md:px-12 lg:px-32 py-4 w-full">
                   <button className=" flex flex-wrap items-center justify-center gap-3 py-2  px-2 bg-green-100 w-50 ">
                             <span className='text-green-400 text-lg md:text-xl'>THIS MONTH</span>
                   </button>
@@ -345,7 +345,7 @@ function Home(){
           </div>
 
            <div className='w-full m-10'>
-                <div className=" flex flex-col  bg-white gap-8  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
+                <div className=" flex flex-col  bg-white gap-8 p-2 sm:px-4 md:px-12 lg:px-20 py-4 w-full">
                     <div className='w-full flex flex-col px-8 gap-4  ' >
                         <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-50 ">
                               <span className='text-green-400 text-lg md:text-2xl'>TOP SALE</span>
