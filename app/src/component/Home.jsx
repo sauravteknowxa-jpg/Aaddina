@@ -32,32 +32,32 @@ function Home(){
               <div className='w-full mt-8 mb-4'>
                     <div className=" flex flex-col md:flex-row bg-white p-2 sm:px-4 md:px-12 lg:px-20 py-4  w-full">
                       <div className='flex flex-wrap items-center justify-between gap-6 w-full '>
-                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full h-full md:w-44 md:h-44 hover:border-green-300'>
+                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full max-w-xs mx-auto h-full md:w-44 md:h-44 hover:border-green-300'>
                               <img src="/images/category-06.png" alt="" className='bg-gray-200 rounded-3xl border-2 border-dotted border-green-300 p-2' />
                               <span className='text-gray-700'>Fresh Fruits</span>
                               <span className='text-gray-300'>24 items</span>
                         </div>
-                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full h-full md:w-44 md:h-44 hover:border-green-300'>
+                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full max-w-xs mx-auto h-full md:w-44 md:h-44 hover:border-green-300'>
                               <img src="/images/category-01.png" alt="" className='bg-gray-200 rounded-3xl border-2 border-dotted border-green-300 p-2' />
                               <span className='text-gray-700'>Vegetable</span>
                               <span className='text-gray-300'>16 items</span>
                         </div>
-                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full h-full md:w-44 md:h-44 hover:border-green-300'>
+                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full max-w-xs mx-auto h-full md:w-44 md:h-44 hover:border-green-300'>
                               <img src="/images/category-02.png" alt="" className='bg-gray-200 rounded-3xl border-2 border-dotted border-green-300 p-2' />
                               <span className='text-gray-700'>Milk & Dairy</span>
                               <span className='text-gray-300'>16 items</span>
                         </div>
-                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full h-full md:w-44 md:h-44 hover:border-green-300 '>
+                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full max-w-xs mx-auto h-full md:w-44 md:h-44 hover:border-green-300 '>
                               <img src="/images/category-03.png" alt="" className='bg-gray-200 rounded-3xl border-2 border-dotted border-green-300 p-2' />
                               <span className='text-gray-700'>Coffee & Tea</span>
                               <span className='text-gray-300'>18 items</span>
                         </div>
-                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full h-full md:w-44 md:h-44 hover:border-green-300'>
+                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full max-w-xs mx-auto h-full md:w-44 md:h-44 hover:border-green-300'>
                               <img src="/images/category-04.png" alt="" className='bg-gray-200 rounded-3xl border-2 border-dotted border-green-300 p-2' />
                               <span className='text-gray-700'>Drinks </span>
                               <span className='text-gray-300'>10 items</span>
                         </div>
-                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full h-full md:w-44 md:h-44 hover:border-green-300'>
+                        <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full max-w-xs mx-auto h-full md:w-44 md:h-44 hover:border-green-300'>
                               <img src="/images/category-05.png" alt="" className='bg-gray-200 rounded-3xl border-2 border-dotted border-green-300 p-2' />
                               <span className='text-gray-700'>Meat </span>
                               <span className='text-gray-300'>10 items</span>
