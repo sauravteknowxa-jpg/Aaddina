@@ -193,8 +193,8 @@ function Home(){
 
             <div className='w-full mt-8 mb-4'>
               <div className=" flex flex-col md:flex-row bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                <div className='flex flex-wrap items-center justify-center gap-4 p-2 md:px-4 w-full'>
-                    <div className='w-full md:w-[40%] bg-cover  ' style={{backgroundImage:"url(/images/off-01.png)"}}>
+                <div className='grid grid-cols-1 md:grid-cols-2 items-stretch justify-center gap-4 p-2 md:px-4 w-full'>
+                    <div className='w-full md:w-[40%] bg-cover bg-center min-h-[250px] md:min-h-[300px] lg:min-h-[400px]  ' style={{backgroundImage:"url(/images/off-01.png)"}}>
                           <div className='flex flex-col items-start justify-start gap-6 px-4 py-20'>
                                   <span className='text-green-600 text-2xl'>30% Off</span>
                                   <h2 className='text-black sm:text-2xl md:text-4xl lg:text-6xl'>Fresh Vegetables</h2>
@@ -206,8 +206,8 @@ function Home(){
                           </div>
                           
                     </div>
-                    <div className='w-full md:w-[54%] bg-cover' style={{backgroundImage:"url(/images/off-02.png)"}}>
-                            <div className='flex flex-col items-start justify-start gap-6 px-4 py-12 w-[60%]'>
+                    <div className='w-full md:w-[54%] bg-cover bg-center min-h-[250px] md:min-h-[300px] lg:min-h-[400px]' style={{backgroundImage:"url(/images/off-02.png)"}}>
+                            <div className='flex flex-col items-stretch justify-start gap-6 px-4 py-12 w-[60%]'>
                                   <span className='text-green-300 text-2xl'>Limited offer</span>
                                   <span className='text-white sm:text-2xl md:text-4xl lg:text-6xl'>Don't Miss  25% Off On All Fruits</span>
                                   <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  p-3 bg-green-500 text-white">
