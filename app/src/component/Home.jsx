@@ -30,7 +30,7 @@ function Home(){
 
               {/* section1 */}
               <div className='w-full mt-8 mb-4'>
-                    <div className=" flex flex-col md:flex-row bg-white  sm:p-4 md:px-12 lg:px-20 py-4  w-full">
+                    <div className=" flex flex-col md:flex-row bg-white p-2 sm:px-4 md:px-12 lg:px-20 py-4  w-full">
                       <div className='flex flex-wrap items-center justify-between gap-6 w-full '>
                         <div className='flex flex-col items-center justify-center gap-4 border-2 border-slate-100 p-2 md:p-10 w-full h-full md:w-44 md:h-44 hover:border-green-300'>
                               <img src="/images/category-06.png" alt="" className='bg-gray-200 rounded-3xl border-2 border-dotted border-green-300 p-2' />
@@ -515,7 +515,7 @@ function Home(){
 
             <div className='w-full bg-black'>
                   <div className='flex flex-col items-start justify-start gap-2 sm:p-2 md:px-4  w-full '>
-                      <div className='m-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-start justify-between sm:p-4 md:px-12 lg:px-20 p-2 md:py-16 w-full'>
+                      <div className='m-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-start justify-between p-2 sm:px-4 md:px-12 lg:px-20 p-2 md:py-16 w-full'>
                           <div className='flex flex-col items-start justify-start gap-6 p-6 '>
                                 <img src="/images/logo-light.svg" alt="" />
                                 <h2 className='text-gray-400 text-lg md:text-xl'>It helps designers plan out where the content will sit, the content to be written and approved.</h2>
