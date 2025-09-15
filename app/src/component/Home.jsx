@@ -1,4 +1,5 @@
 
+import { FaAngleRight, FaArrowLeft, FaArrowRight, FaMoneyCheck, FaRegStar, FaTruck } from "react-icons/fa";
 import "./style.css"
 function Home(){
     return(
@@ -14,7 +15,7 @@ function Home(){
                          </h1>
                         <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  p-3 bg-green-500 text-white">
                             <span>Buy Now</span>
-                            <img src="/images/pic44.jpg" alt="" />
+                            <FaAngleRight className="text-2xl text-white" />
                           </button>
                                                 
                       </div>
@@ -103,7 +104,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Organic Avocado</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 150.00</span>
                             </div>
                       </div>
@@ -114,7 +122,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Cheddar Fries</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 190.00</span>
                             </div>
                       </div>
@@ -125,7 +140,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Broccoli Organic</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 300.00</span>
                             </div>
                       </div>
@@ -136,7 +158,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Broccoli Farms</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 129.00</span>
                             </div>
                       </div>
@@ -147,7 +176,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Fresh Orange</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 150.00</span>
                             </div>
                       </div>
@@ -158,7 +194,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Organic Avocado</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 150.00</span>
                             </div>
                       </div>
@@ -170,7 +213,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Fresh Orange</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 80.00</span>
                             </div>
                       </div>
@@ -181,7 +231,14 @@ function Home(){
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Red apple</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 49.00</span>
                             </div>
                       </div>
@@ -193,26 +250,26 @@ function Home(){
 
             <div className='w-full mt-8 mb-4'>
               <div className=" flex flex-col md:flex-row bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                <div className='grid grid-cols-1 md:grid-cols-2 items-stretch justify-center gap-4 p-2 md:px-4 w-full'>
-                    <div className='w-full md:w-[40%] bg-cover bg-center min-h-[250px] md:min-h-[300px] lg:min-h-[400px]  ' style={{backgroundImage:"url(/images/off-01.png)"}}>
+                <div className='flex flex-col md:flex-row items-stretch  gap-4 p-2 md:px-4 w-full'>
+                    <div className='w-full md:w-[40%]  bg-cover bg-center  ' style={{backgroundImage:"url(/images/off-01.png)"}}>
                           <div className='flex flex-col items-start justify-start gap-6 px-4 py-20'>
                                   <span className='text-green-600 text-2xl'>30% Off</span>
                                   <h2 className='text-black sm:text-2xl md:text-4xl lg:text-6xl'>Fresh Vegetables</h2>
                                   <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  p-3 bg-green-500 text-white">
                                     <span>Buy Now</span>
-                                    <img src="/images/pic44.jpg" alt="" />
+                                    <FaAngleRight className="text-2xl text-white" />
                                   </button>
                         
                           </div>
                           
                     </div>
-                    <div className='w-full md:w-[54%] bg-cover bg-center min-h-[250px] md:min-h-[300px] lg:min-h-[400px]' style={{backgroundImage:"url(/images/off-02.png)"}}>
-                            <div className='flex flex-col items-stretch justify-start gap-6 px-4 py-12 w-[60%]'>
+                    <div className='w-full md:w-[55%]  bg-cover bg-center  ' style={{backgroundImage:"url(/images/off-02.png)"}}>
+                            <div className='flex flex-col items-stretch justify-start gap-6 px-4 py-12 w-[50%]'>
                                   <span className='text-green-300 text-2xl'>Limited offer</span>
-                                  <span className='text-white sm:text-2xl md:text-4xl lg:text-6xl'>Don't Miss  25% Off On All Fruits</span>
+                                  <span className='text-white sm:text-2xl md:text-4xl lg:text-6xl'>Don't Miss 25% Off On All Fruits</span>
                                   <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  p-3 bg-green-500 text-white">
                                     <span>Buy Now</span>
-                                    <img src="/images/pic44.jpg" alt="" />
+                                    <FaAngleRight className="text-2xl text-white" />
                                   </button>
                           </div>
                     </div>
@@ -221,8 +278,8 @@ function Home(){
             </div>
 
           <div className='w-full m-4'>
-                <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                  <div className='w-full flex flex-col px-12  ' >
+                <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-30 py-4 w-full">
+                  <div className='w-full flex flex-col gap-4  ' >
                       <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-40 ">
                             <span className='text-green-400 text-lg md:text-2xl'>THIS WEEK</span>
                       </button>
@@ -230,76 +287,138 @@ function Home(){
 
                   </div>
                   
-                    <div className='grid grid-cols-1  md:grid-cols-3 items-start justify-start gap-4 px-8'>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                    <div className='grid grid-cols-1  md:grid-cols-3 items-start justify-start gap-6 '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-01.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Organic <br /> Avocado</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-02.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries </span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-03.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Organic <br /> Avocado</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-04.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Farms</span>
-                              <img src="/images/pic45.jpg" alt="" />
-                              <span className='text-green-400'>USD 66.00</span>
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                                <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-05.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-06.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Organic</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-07.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Farms</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-08.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-09.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Organic</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -337,7 +456,7 @@ function Home(){
                                   </div>
                                   <button className="flex flex-wrap w-36 h-12 items-center justify-center gap-3  py-1  px-3 bg-green-300 hover:bg-white text-white hover:text-green-300 cursor-pointer">
                                     <span >Buy Now</span>
-                                    <img src="/images/pic44.jpg" alt="" />
+                                    <FaAngleRight className="text-2xl text-white" />
                                   </button>
                           </div>
                     </div>
@@ -354,46 +473,74 @@ function Home(){
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 px-8 w-full'>
                           <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-2 sm:px-4 md:px-12 sm:py-4 md:py-12'>
                                       <img src="/images/product1 (1).png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
-                              <span className='text-black text-xl font-semibold hover:text-green-300'>Alexander roll Arm sofa</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <span className='text-black text-xl font-semibold hover:text-green-300 cursor-pointer'>Alexander roll Arm sofa</span>
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 150.00</span>
                             </div>
                       </div>
 
                        <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-2 sm:px-4 md:px-12 sm:py-4 md:py-12'>
                                       <img src="/images/product2.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
-                              <span className='text-black text-xl font-semibold hover:text-green-300'>Brasslegged Armchair</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <span className='text-black text-xl font-semibold hover:text-green-300 cursor-pointer'>Brasslegged Armchair</span>
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 190.00</span>
                             </div>
                       </div>
 
                       <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-2 sm:px-4 md:px-12 sm:py-4 md:py-12'>
                                       <img src="/images/product3 (1).png" alt="" />
                             </div>
-                            <div className='bg-white flex flex-col items-start justify-start gap-2 '>
+                            <div className='bg-white flex flex-col items-start justify-start gap-2 cursor-pointer '>
                               <span className='text-black text-xl font-semibold hover:text-green-300'>Cheddar Fries</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 300.00</span>
 
                             </div>
                       </div>
 
                       <div className=' flex flex-col items-start justify-center gap-3'>
-                            <div className='bg-gray-200 flex flex-col items-center justify-center px-6 py-12'>
+                            <div className='bg-gray-200 flex flex-col items-center justify-center p-2 sm:px-4 md:px-12 sm:py-4 md:py-12'>
                                       <img src="/images/product4.png" alt="" />
                             </div>
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
-                              <span className='text-black text-xl font-semibold hover:text-green-300'>Broccoli Farms</span>
-                              <img src="/images/pic45.jpg" alt="" />
+                              <span className='text-black text-xl font-semibold hover:text-green-300 cursor-pointer'>Broccoli Farms</span>
+                              <div className="flex flex-wrap gap-1">
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                                    <FaRegStar className="text-2xl text-yellow-300" />
+                              </div>
+                              
                               <span className='text-green-400'>USD 129.00</span>
                             </div>
                       </div>
@@ -411,15 +558,21 @@ function Home(){
                         <div className='flex flex-wrap items-center justify-between gap-6 w-full '>
                               <span className='text-base sm:text-lg md:text-2xl lg:text-5xl font-semibold'>Client Feedback</span>
                               <ul className='flex flex-wrap items-start justify-start gap-3 pl-5  '>
-                                  <img src="/images/pic51.jpg" alt="" className='rounded-3xl' />
-                                  <img src="/images/pic52.jpg" alt="" className='rounded-3xl' />                        
+                                  <FaArrowRight className='rounded-3xl text-5xl bg-white text-green-400 p-2' />
+                                  <FaArrowLeft className='rounded-3xl text-5xl bg-white text-green-400 p-2' />                        
                               </ul>
                         </div>
                     </div>
                     <div className='mt-2 mb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-6 sm:p-4 md:px-12 lg:px-20 py-4 w-full'>
                           <div className='bg-white flex flex-col items-start justify-start gap-3 p-2  md:p-10  '>
                                 <div className='flex flex-col items-start justify-start gap-1 '>
-                                      <img src="/images/pic45.jpg" alt="" />
+                                      <div className="flex flex-wrap gap-1">
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                      </div>                              
                                       <h2 className='text-lg md:text-2xl font-semibold'>Ralph Edwards</h2>
                                       <span className='text-gray-500 text-lg md:text-xl font-semibold'>UI / UX Designer</span>
                                 </div>
@@ -427,7 +580,13 @@ function Home(){
                           </div>
                           <div className='bg-white flex flex-col items-start justify-start gap-3 p-2  md:p-10 '>
                                 <div className='flex flex-col items-start justify-start gap-1 '>
-                                      <img src="/images/pic45.jpg" alt="" />
+                                      <div className="flex flex-wrap gap-1">
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                      </div>
                                       <h2 className='text-lg md:text-2xl font-semibold'>Jerome Bell</h2>
                                       <span className='text-gray-500 text-lg md:text-xl font-semibold'>Web Designer</span>
                                 </div>
@@ -435,7 +594,13 @@ function Home(){
                           </div>
                           <div className='bg-white flex flex-col items-start justify-start gap-3 p-2 md:p-10 '>
                                 <div className='flex flex-col items-start justify-start gap-1 '>
-                                      <img src="/images/pic45.jpg" alt="" />
+                                      <div className="flex flex-wrap gap-1">
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                                <FaRegStar className="text-2xl text-yellow-300" />
+                                      </div>
                                       <h2 className='text-lg md:text-2xl font-semibold'>Annette Black</h2>
                                       <span className='text-gray-500 text-lg md:text-xl font-semibold'>Dog Trainer</span>
                                 </div>
@@ -483,14 +648,14 @@ function Home(){
             <div className='w-full'>
                 <div className='m-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-between sm:p-4 md:px-12 lg:px-20 py-4 w-full'>
                     <div className='flex flex-wrap items-stretch justify-start gap-4 '>
-                          <img src="/images/pic56.jpg" alt="" />
+                          <FaTruck className="text-6xl text-green-400"/>
                           <div className='flex flex-col items-start justify-start gap-1'>
                                 <span className='text-lg md:text-xl font-black'>Free Delivery</span>
                                 <h2 className='text-gray-400'>Free shipping on <br /> all order</h2>
                           </div>
                     </div>
                     <div className='flex flex-wrap items-stretch justify-start gap-4 '>
-                          <img src="/images/pic57.jpg" alt="" />
+                          <FaMoneyCheck className="text-6xl text-green-400"/>
                           <div className='flex flex-col items-start justify-start gap-1'>
                                 <span className='text-lg md:text-xl font-black'>Money Return</span>
                                 <h2 className='text-gray-400'>Back guarantee under <br /> 7 day</h2>
