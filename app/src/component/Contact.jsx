@@ -1,18 +1,18 @@
 function Contact(){
     return(
         <>
-            <div className='w-full m-4'>
-                <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                  <div className='w-full flex flex-col px-12  ' >
-                      <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-40 ">
+          <div className='w-full m-4'>
+                <div className=" flex flex-col  bg-white gap-4  sm:p-4 lg:px-12 xl:px-20 py-4 w-full">
+                  <div className='w-full flex flex-col   ' >
+                      <button className=" flex flex-wrap items-start justify-start gap-3 pl-2 py-1 bg-green-100 w-30 ">
                             <span className='text-green-400 text-lg md:text-2xl'>This Week</span>
                       </button>
                     <span className='text-base sm:text-lg md:text-2xl lg:text-5xl font-semibold'>Best Sellers</span>
 
                   </div>
                   
-                    <div className='grid grid-cols-1  md:grid-cols-3 items-start justify-start gap-4 px-8'>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                    <div className='grid grid-cols-1  md:grid-cols-3 items-center justify-center gap-4 '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-01.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Organic <br /> Avocado</span>
@@ -20,7 +20,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-02.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries </span>
@@ -28,7 +28,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-03.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Organic <br /> Avocado</span>
@@ -36,7 +36,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-04.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Farms</span>
@@ -44,7 +44,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-05.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries</span>
@@ -52,7 +52,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-06.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Organic</span>
@@ -60,7 +60,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-07.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Farms</span>
@@ -68,7 +68,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-08.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries</span>
@@ -76,7 +76,7 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                          <div className='flex flex-wrap items-center justify-center gap-6 w-full '>
+                          <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-09.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Organic</span>
@@ -84,11 +84,11 @@ function Contact(){
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                    </div>
-                       
-                </div>
-                
+                    </div>                      
+                </div>              
           </div>
+
+
              <div className='w-full bg-black'>
                   <div className='flex flex-col items-start justify-start gap-2 sm:p-2 md:px-4  w-full '>
                       <div className='m-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-start justify-between sm:p-4 md:px-12 lg:px-20 p-2 md:py-16 w-full'>

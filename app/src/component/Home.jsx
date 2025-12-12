@@ -97,7 +97,7 @@ function Home(){
 
               <div className='w-full mt-4 mb-8'>
                 <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-20 py-4 w-full">
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-4 px-12 w-full'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-4 w-full'>
                       <div className=' flex flex-col items-center md:items-start justify-center gap-3'>
                             <div className='bg-gray-200 flex flex-col items-center justify-center p-4 sm:px-6 md:px-10 lg:px-14 sm:py-4 md:py-10 lg:py-12'>
                                       <img src="/images/product1 (1).png" alt="" />
@@ -278,28 +278,21 @@ function Home(){
             </div>
 
           <div className='w-full m-4'>
-                <div className=" flex flex-col  bg-white gap-4  sm:p-4 md:px-12 lg:px-30 py-4 w-full">
-                  <div className='w-full flex flex-col gap-4  ' >
-                      <button className=" flex flex-wrap items-center justify-center gap-3 py-1  px-3 bg-green-100 w-40 ">
-                            <span className='text-green-400 text-lg md:text-2xl'>THIS WEEK</span>
+                <div className=" flex flex-col  bg-white gap-4  sm:p-4 lg:px-12 xl:px-20 py-4 w-full">
+                  <div className='w-full flex flex-col   ' >
+                      <button className=" flex flex-wrap items-start justify-start gap-3 pl-2 py-1 bg-green-100 w-30 ">
+                            <span className='text-green-400 text-lg md:text-2xl'>This Week</span>
                       </button>
                     <span className='text-base sm:text-lg md:text-2xl lg:text-5xl font-semibold'>Best Sellers</span>
 
                   </div>
                   
-                    <div className='grid grid-cols-1  md:grid-cols-3 items-start justify-start gap-6 '>
+                    <div className='grid grid-cols-1  md:grid-cols-3 items-center justify-center gap-4 '>
                           <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-01.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Organic <br /> Avocado</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -307,14 +300,7 @@ function Home(){
                               <img src="/images/fs-02.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries </span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -322,14 +308,7 @@ function Home(){
                               <img src="/images/fs-03.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Organic <br /> Avocado</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -337,28 +316,15 @@ function Home(){
                               <img src="/images/fs-04.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Farms</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                                <span className='text-green-400'>USD 66.00</span>
+                              <img src="/images/pic45.jpg" alt="" />
+                              <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
                           <div className='flex flex-wrap items-start justify-start gap-6 w-full '>
                               <img src="/images/fs-05.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -366,14 +332,7 @@ function Home(){
                               <img src="/images/fs-06.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Organic</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -381,14 +340,7 @@ function Home(){
                               <img src="/images/fs-07.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Farms</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -396,14 +348,7 @@ function Home(){
                               <img src="/images/fs-08.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Cheddar <br /> Fries</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
@@ -411,22 +356,14 @@ function Home(){
                               <img src="/images/fs-09.png" alt="" />                            
                             <div className='bg-white flex flex-col items-start justify-start gap-2 '>
                               <span className='text-black text-lg sm:text-xl md:text-3xl  font-semibold hover:text-green-300 flex flex-wrap'>Broccoli <br /> Organic</span>
-                              <div className="flex flex-wrap gap-1">
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                                    <FaRegStar className="text-2xl text-yellow-300" />
-                              </div>
-                              
+                              <img src="/images/pic45.jpg" alt="" />
                               <span className='text-green-400'>USD 66.00</span>
                             </div>
                           </div>
-                    </div>
-                       
-                </div>
-                
+                    </div>                      
+                </div>              
           </div>
+
 
           <div className='w-full m-4'>
                <div className=" flex flex-col  bg-white   w-full">
@@ -680,7 +617,7 @@ function Home(){
 
             <div className='w-full bg-black'>
                   <div className='flex flex-col items-start justify-start gap-2 sm:p-2 md:px-4  w-full '>
-                      <div className='m-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-start justify-between p-2 sm:px-4 md:px-12 lg:px-20 p-2 md:py-16 w-full'>
+                      <div className='m-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-start justify-between  sm:px-4 md:px-12 lg:px-20 p-2 md:py-16 w-full'>
                           <div className='flex flex-col items-start justify-start gap-6 p-6 '>
                                 <img src="/images/logo-light.svg" alt="" />
                                 <h2 className='text-gray-400 text-lg md:text-xl'>It helps designers plan out where the content will sit, the content to be written and approved.</h2>

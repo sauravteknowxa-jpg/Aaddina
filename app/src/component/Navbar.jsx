@@ -14,17 +14,17 @@ function Navbar(){
         <>
 
                  <div className=" w-full">
-                    <nav className="bg-black flex flex-wrap items-center justify-between  text-shadow-black px-10 py-1 w-full ">
-                          <div className="flex  items-center gap-2 p-2 md:flex-none">
+                    <nav className="bg-black flex flex-wrap items-center justify-between  text-shadow-black p-4 sm:px-6 lg:px-10 py-1 w-full ">
+                          <div className="flex items-center sm:justify-between gap-2 p-2 lg:flex-none ">
                                 <a href="" className="flex items-center gap-2">
                                 <h2 className="flex flex-wrap items-center justify-center gap-2 ">
                                     <FaPhone className="text-white text-xl transform -scale-x-100"></FaPhone>
                                     <span className='text-white text-center md:text-base'>+380961381876</span>
                                 </h2>
                                 </a>
-                                <button onClick={handleButton} className="md:hidden text-white text-3xl cursor-pointer">
+                                {/* <button onClick={handleButton} className="md:hidden text-white text-3xl cursor-pointer">
                                   <GiHamburgerMenu />
-                                </button>
+                                </button> */}
                             </div>
                             <div className="hidden md:flex items-center p-2 justify-center">
                                     <h2 className='text-white text-center w-full'>TAKE CARE OF YOUR Health <span className='text-green-300'>25% OFF </span>USE CODE "DOFIXO3"</h2>
@@ -52,6 +52,11 @@ function Navbar(){
                                                <option value="" className="text-black ">Logout</option>
                                         </select>
                             </div> 
+                            <div className=" md:hidden">
+                                  <button onClick={handleButton} className="cursor-pointer text-white text-2xl">
+                                          <GiHamburgerMenu />
+                                  </button>
+                            </div>
 
                             {showMenu && (
                                 <div className="w-full md:hidden bg-black p-4 mt-2 space-y-4">
@@ -83,7 +88,7 @@ function Navbar(){
                               )}                 
                   </nav>
                         
-                <nav className=" flex flex-wrap items-center justify-between bg-white text-shadow-black px-12 py-3 w-full ">
+                <nav className=" flex flex-wrap items-center justify-between bg-white text-shadow-black p-4 sm:px-6 md:px-10 py-1  w-full ">
                   <div className="flex flex-wrap items-center justify-center gap-6 font-bold text-black">
                     <a href="">
                       <h3 className="flex flex-wrap items-center justify-center gap-2">
